@@ -851,7 +851,7 @@ class ConceptSynthesizer:
             if data.get("parent"):
                 continue
 
-            # 🔥 Embedding-basierte Suche
+            # Embedding-basierte Suche
             query_vec = self.embedder.embed(term)
             results = self.embedding_index.search(query_vec, top_k=3)
 
