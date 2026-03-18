@@ -1,3 +1,2 @@
 merely a test run of an evolving WorldModel.  
-Learns the taxonomy of fruits and is therefore in parts based on this.  
-The system tries to learn an ontology from data.
+The system tries to learn the taxonomy and ontology of fruits from (text)data and is therefore partly tuned to this and uses a few crude hacks.  
